@@ -1,16 +1,17 @@
+
 #include<stdio.h>
 main(){
 	
 	
-	char r = 'A';
-	char c = 'Z';
-	int a = 0;
+	char r,c;
+	char a = 'A';
 	
-	for(r='A'; r<=5; r++){
-		for(c='A'; c<=r; c++){	
+	for(r=1; r<=5; r++){
+		for(c=1; c<=r; c++){	
 		
-				
-			printf("%d",a);
+			
+			printf("%c",a);
+			a++;
 		}
 			printf("\n");
 	}
